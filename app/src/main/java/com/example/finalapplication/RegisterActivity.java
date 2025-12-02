@@ -26,7 +26,7 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 
-public class RegisterActivity extends AppCompatActivity {
+public class  RegisterActivity extends AppCompatActivity {
 
     private FirebaseAuth refAuth;
     private TextInputEditText etEmail, etUsername, etPassword, etConfirmPassword;
@@ -48,7 +48,6 @@ public class RegisterActivity extends AppCompatActivity {
 
         // חיבור אל רכיבי ה־XML
         etEmail = findViewById(R.id.etEmail);
-        etUsername = findViewById(R.id.etUsername);
         etPassword = findViewById(R.id.etPassword);
         etConfirmPassword = findViewById(R.id.etConfirmPassword);
         btnRegister = findViewById(R.id.btnRegister);
